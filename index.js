@@ -26,7 +26,7 @@ checkAge(userAge)
 
 
 
-const addMarks = (text, name, mark, tico working space in sunset road balimes) => {
+const addMarks = (text, name, mark) => {
     let newText = text + name
     
     for (let i = 1; i <= times; i++) {
