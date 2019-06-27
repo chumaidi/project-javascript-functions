@@ -33,7 +33,8 @@ const addMarks = (text, name, mark, times) => {
       newText += mark
   
     }
-    console.log(newText)
+    console.log(newText)improve function
+
   }
   let userName = prompt ("input your name")
   addMarks('Hello ', userName, '!', 2) // Hello!
