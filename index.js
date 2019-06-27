@@ -26,7 +26,7 @@ checkAge(userAge)
 
 
 
-const addMarks = (text, name, mark) => {
+const addMarks = (text, name, mark, times) => {
     let newText = text + name
     
     for (let i = 1; i <= times; i++) {
