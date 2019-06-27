@@ -7,6 +7,7 @@ let firstName = prompt (" input your first name")
 let secondName = prompt (" input your last name")
 
 logName(nameA, nameB)
+improve function
 
 
 // 
@@ -33,7 +34,7 @@ const addMarks = (text, name, mark, times) => {
       newText += mark
   
     }
-    console.log(newText)improve function
+    console.log(newText)
 
   }
   let userName = prompt ("input your name")
@@ -46,9 +47,8 @@ const addMarks = (text, name, mark, times) => {
 
 
   const showNameWithAge = (name = 'Unknown', age = 0) =>{
-  const showNameWithAge = `${name} is ${age} year(s)old`
+  console.log (`${name} is ${age} year(s)old`)
     
-  return showNameWithAge
   }
 
   const lian = showNameWithAge ('lian',22)
